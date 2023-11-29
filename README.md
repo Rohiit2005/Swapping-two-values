@@ -19,13 +19,20 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 ```
+
 #swapping of variables
 #developed by:Rohiit
 #register number:23010688
+a=int(input())
+b=int(input())
+temp=a
+a=b
+b=temp
+print("Swapped values are:",a,b)
 
 ```
 ## output
-
+![output](/out.png)
 ## RESULT:
 Thus the swapping of two values are successfully executed
 
